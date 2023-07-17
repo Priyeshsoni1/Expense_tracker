@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Balance{
+    font-size: 18px;
+    font-weight: bold;
+   margin-right: 100px;
+  
+    
+}
+.BalanceBox{
+    -webkit-box-shadow: 5px 9px 43px -30px rgba(0,0,0,0.85);
+-moz-box-shadow: 5px 9px 43px -30px rgba(0,0,0,0.85);
+box-shadow: 5px 9px 43px -30px rgba(0,0,0,0.85);
+min-height: 100px;
+min-width: 300px;
+
+margin-top: 50px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.income{
+    color: rgb(46, 181, 46);
+    margin: auto 0px;
+
+
+}
+.expense{
+    color: rgb(210, 13, 13);
+    margin: auto 0px;
+
+}

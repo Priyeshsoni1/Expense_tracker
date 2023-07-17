@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.heading{
+    font-size: 14px;
+    font-weight: bold;
+}
+.listBox{
+
+    -webkit-box-shadow: -2px -2px 33px -13px rgba(0,0,0,0.35);
+    -moz-box-shadow: -2px -2px 33px -13px rgba(0,0,0,0.35);
+    box-shadow: -2px -2px 33px -13px rgba(0,0,0,0.35);
+
+min-width: 300px;
+min-height: 50px;
+display: flex;
+flex-direction: row;
+padding:  0 15px;
+justify-content: space-between;
+align-items: center;
+margin: 1px;
+
+
+}
+.green{
+    border-right: 6px solid green;
+    background: #000;
+
+}
+.red{
+    border-right: 6px solid rgb(238, 7, 7);
+    background: #000;
+}
+
+div.delete{
+    opacity: 0;
+    cursor: pointer;
+}
+.boxes:hover .delete{
+    opacity: 1;
+}
